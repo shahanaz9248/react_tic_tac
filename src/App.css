@@ -1,0 +1,29 @@
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+}
+.cell{
+  background:#8969a0;
+  width: 100px;
+  height: 100px;
+  cursor:pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:30px;
+  color: rgba(245, 245, 245, 0.575);
+}
+
+#tr{color:rgba(245, 245, 245, 0.575);
+   font-size: 30px;}
+
+#btn{padding:10px;
+     border: 1px solid #682b7d;
+     border-radius: 3px;
+     font-size: medium;
+     cursor: pointer;
+     background:rgba(245, 245, 245, 0.575) ;
+     color:#682b7d;}
